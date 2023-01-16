@@ -1,0 +1,108 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  font-family: sans-serif;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: antiquewhite;
+  border-radius: 1rem;
+  height: 70vh;
+  width: 92rem;
+}
+
+main h1 {
+  text-transform: capitalize;
+  font-size: 4.2rem;
+  margin-bottom: 2rem;
+}
+
+.first-section {
+  display: flex;
+}
+
+input[type="text"] {
+  border: 1px solid black;
+  width: 24rem;
+  height: 3rem;
+  font-size: 2rem;
+  outline: none;
+}
+
+button,
+.delete-btn {
+  height: 3rem;
+  width: 8rem;
+  cursor: pointer;
+  font-size: 2rem;
+  background-color: white;
+  border: 0.1px solid black;
+  transition: all 0.3s ease;
+}
+
+.list:hover {
+  background-color: rgb(139, 255, 255);
+  cursor: pointer;
+}
+.list-part {
+  margin-left: -2rem;
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.inner-container {
+  margin-top: 6rem;
+}
+
+.inner-container,
+.second-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.counter-list {
+  font-size: 2rem;
+  align-self: center;
+  font-weight: bold;
+  position: relative;
+  left: -0.4rem;
+}
+
+button:hover {
+  background-color: transparent;
+}
+
+input:focus {
+  background-color: transparent;
+}
+
+::selection {
+  background-color: black;
+  color: white;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  background-color: aqua;
+  padding-block: 0.8rem;
+  width: 24rem;
+  height: 3rem;
+}
