@@ -32,9 +32,8 @@ const addItem = function () {
   }
 
   if (ul.childElementCount > 8) {
-    alert("Maksimalni broj Itema je 8!");
+    alert("Maksimalan broj Itema je 8!");
     ul.replaceChildren();
-    counting = 0;
   }
 };
 

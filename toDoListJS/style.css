@@ -105,4 +105,6 @@ input:focus {
   padding-block: 0.8rem;
   width: 24rem;
   height: 3rem;
+  position: relative;
+  left: -.1rem;
 }
